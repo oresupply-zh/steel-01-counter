@@ -2,12 +2,11 @@
 
 ORE 中文 X：[`https://x.com/OREsupply_ZH`](https://x.com/OREsupply_ZH)
 
-**Counter** 是一个使用 Steel 框架构建的 Solana 程序，用于演示基本的计数器功能。该项目作为教程示例，展示如何使用 Steel 框架构建和组织 Solana 程序。
+**Counter** 是一个使用 Steel 框架构建的 Solana 程序，用于演示基本的计数器功能。作为教程示例，展示如何使用 Steel 框架构建和组织 Solana 程序。
         
 ## API 接口
 - [`Consts`](api/src/consts.rs) – 程序常量定义
 - [`Error`](api/src/error.rs) – 自定义程序错误
-- [`Event`](api/src/event.rs) – 程序事件定义
 - [`Instruction`](api/src/instruction.rs) – 指令声明
 
 ## 核心组件实现
@@ -46,7 +45,7 @@ pub fn process_initialize(accounts: &[AccountInfo<'_>], _data: &[u8]) -> Program
 }
 ```
 
-#### 增加操作
+#### 加法操作
 ```rust
 // program/src/add.rs
 pub fn process_add(accounts: &[AccountInfo<'_>], data: &[u8]) -> ProgramResult {
