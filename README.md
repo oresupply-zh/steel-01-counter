@@ -1,5 +1,7 @@
 # 计数器程序
 
+ORE 中文 X：[`https://x.com/OREsupply_ZH`](https://x.com/OREsupply_ZH)
+
 **Counter** 是一个使用 Steel 框架构建的 Solana 程序，用于演示基本的计数器功能。该项目作为教程示例，展示如何使用 Steel 框架构建和组织 Solana 程序。
         
 ## API 接口
